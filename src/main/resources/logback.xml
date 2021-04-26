@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="com.ziroom.bi.data.schedulelineage.filter.CustomRequestLoggingFilter" level="DEBUG"/>
+    <logger name="org.springframework.data.neo4j.core.cypher" level="trace"/>
+</configuration>
